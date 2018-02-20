@@ -5,7 +5,7 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 };
 
-function removeFromPlaylist( Jim Croce, I got a name){
+function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName;
   return playlist
 };
